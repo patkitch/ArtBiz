@@ -10,7 +10,7 @@ __pycache__/
 .venv/
 
 # Django media & static
-/media/
+media/
 staticfiles/
 
 # IDEs & editors
@@ -25,7 +25,7 @@ Desktop.ini
 $RECYCLE.BIN/
 *.lnk
 
-# Mac junk (in case you ever switch)
+# Mac junk
 .DS_Store
 .AppleDouble
 .LSOverride
