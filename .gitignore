@@ -9,15 +9,31 @@ __pycache__/
 # Virtual environment
 .venv/
 
-# Django stuff
+# Django media & static
 /media/
 staticfiles/
 
-# VS / JetBrains
+# IDEs & editors
 .vscode/
 .idea/
-
-# OS
-.DS_Store
-Thumbs.db
 .vs/
+
+# Windows junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Mac junk (in case you ever switch)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# Coverage / test artifacts
+.coverage
+htmlcov/
+
