@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-@a=w+58_x^6ma)2!sx21qq(#c*wk9k*4n6d-r1)%8r)l_@yor_
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["arbiz-2.onrender.com", "app.pforbesart.com", "127.0.0.1", "localhost"]  # add your custom domain later
-CSRF_TRUSTED_ORIGINS = ["https://arbiz-2.onrender.com", "https://app.pforbesart.com"]
+ALLOWED_HOSTS = ["artbiz-2.onrender.com", "app.pforbesart.com", "127.0.0.1", "localhost"]  # add your custom domain later
+CSRF_TRUSTED_ORIGINS = ["https://artbiz-2.onrender.com"]
 
 
 
