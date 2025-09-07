@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@a=w+58_x^6ma)2!sx21qq(#c*wk9k*4n6d-r1)%8r)l_@yor_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = ["artbiz-2.onrender.com", "app.pforbesart.com", "127.0.0.1", "localhost"]  # add your custom domain later
