@@ -1,4 +1,6 @@
-﻿"""
+﻿from django.http import HttpResponse
+
+"""
 URL configuration for config project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -19,8 +21,9 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 urlpatterns = [
+    path("", lambda request: HttpResponse("✅ ArtBiz is live!"), name="home"),
     path("admin/", admin.site.urls),
-    path("", include("core.urls")),   # ← add this line
+    
 ]
 # dev-only: serves uploaded files
 if settings.DEBUG:
