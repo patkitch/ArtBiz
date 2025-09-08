@@ -5,3 +5,4 @@ dj-database-url
 psycopg[binary]
 djangorestframework
 django-filter
+Pillow
